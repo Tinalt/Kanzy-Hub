@@ -1,0 +1,2 @@
+local partToDelete = game.Workspace.Model
+partToDelete:Destroy()
