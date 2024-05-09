@@ -1,0 +1,27 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
+local window = kavoUi.CreateLib("Radiant Residents","BloodTheme")
+
+---Hi
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("Credits")
+
+--Button
+
+Tab1Section:NewButton("Max Hub [KEY]","BEST FREE Radiant Residents script",function()
+
+local Going_Paid_Soon = loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3f4c258405c294983a9b0e113dad3de7.lua"))()
+
+end)
+
+Tab1Section:NewButton("Unknown Hub","Free lobby and god mode",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Wilmasua/Yes/main/Yes'))()
+
+end)
+
+local Tab2Section = Tab2:NewSection("--Owner--")
+local Tab2Section = Tab2:NewSection("--Tin--")
