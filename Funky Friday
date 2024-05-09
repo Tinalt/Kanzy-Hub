@@ -1,0 +1,37 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
+local window = kavoUi.CreateLib("Funky Friday","BloodTheme")
+
+---Hi
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Info")
+local Tab2Section = Tab2:NewSection("Info About Key")
+
+local Tab3 = window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("Credits")
+
+--Buttons
+
+Tab1Section:NewButton("Plutonium Hub [KEY]","BEST FREE Funky Friday script",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+
+end)
+
+Tab1Section:NewButton("Funky Friday Mobile","Mobile gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+
+end)
+
+local Tab2Section = Tab2:NewSection("Workink: 4 checkpoints 24HRS key")
+
+local Tab2Section = Tab2:NewSection("Linkvertise: 2 checkpoints 26HRS key")
+
+
+
+
+local Tab3Section = Tab3:NewSection("--Owner--")
+local Tab3Section = Tab3:NewSection("--Tin-")
