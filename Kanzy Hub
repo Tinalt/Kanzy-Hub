@@ -9,7 +9,7 @@ Duration = 4;
 });
 
 if game.CoreGui:FindFirstChild("ScreenGui") then
-    game.CoreGui.ScreenGui:Destroy()
+    game.CoreGui.ScreenGui:Destroy()
 end
 
 wait(0.5)
@@ -17,7 +17,7 @@ wait(0.5)
 ---Kanzy Hub
 
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
-local window = kavoUi.CreateLib("Kanzy Hub","BloodTheme")
+local window = kavoUi.CreateLib("Kanzy Hub [UPDATED]","BloodTheme")
 
 ---Hi
 
@@ -30,20 +30,17 @@ local Tab2Section = Tab2:NewSection("Games Hub [ OP ]")
 local Tab3 = window:NewTab("Player")
 local Tab3Section = Tab3:NewSection("Player")
 
-local Tab4 = window:NewTab("Credits")
-local Tab4Section = Tab4:NewSection("Credits")
+local Tab4 = window:NewTab("Update Logs")
+local Tab4Section = Tab4:NewSection("Update Logs")
+
+local Tab5 = window:NewTab("Credits")
+local Tab5Section = Tab5:NewSection("Credits")
 
 --
 
 Tab1Section:NewButton("Infinite Yield","OP Admin Commands [FE]",function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-
-end)
-
-Tab1Section:NewButton("Chat Spy","See people Private Chat!",function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Slap-Battles2/main/Chat%20Spy'))()
 
 end)
 
@@ -57,10 +54,34 @@ Tab1Section:NewButton("Fling Gui","Fling Fling",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 end)
 
-Tab1Section:NewButton("Dex (WORKING)","Dex Mobile",function()
+Tab1Section:NewButton("Fling Gui [Extra teleporter gui]","Fling People and teleport to them",function()
 
-getgenv().Key = "Bash"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Fling%20Gui%20V2", true))()
+
+end)
+
+Tab1Section:NewButton("Custom Fling","Fling gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Fling%20Select%20Player", true))()
+
+end)
+
+Tab1Section:NewButton("Chat Bypass V1","Bypass the chat!",function()
+
+loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
+
+end)
+
+Tab1Section:NewButton("Chat Bypass V2","Bypass the chat!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Clickgameplay/no-tag-script/main/.NoTagScript"))()
+
+end)
+
+Tab1Section:NewButton("Chat Spy","Chat Spy [Not work with new chat ui]",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Chat%20Spy", true))()
+
 end)
 
 Tab1Section:NewButton("Anti Ragdoll","OP Anti Ragdoll Hack",function()
@@ -68,6 +89,12 @@ Tab1Section:NewButton("Anti Ragdoll","OP Anti Ragdoll Hack",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Anti%20ragdoll"))()
 
 end) 
+
+Tab1Section:NewButton("Counter Roast","Counter Roast Gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Counter%20Roast"))()
+
+end)
 
 Tab1Section:NewButton("Chat Hax","FAKE CHAT LOL",function()
 
@@ -176,6 +203,11 @@ Tab1Section:NewButton("RedGhost Hub","RIP GhostPlayer Channel :(",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RedGhost%20Obfuscator'))()
 
 end) 
+
+Tab1Section:NewButton("Custom Keyboard","Custom Keyboard for Mobile",function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+end)
 
 Tab1Section:NewButton("KeyBoard","Spawn Small Keyboard",function()
 
@@ -309,16 +341,16 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 
 end) 
 
-local Tab4Section = Tab4:NewSection("---Owner Kanzy Hub---")
+local Tab5Section = Tab5:NewSection("---Owner Kanzy Hub---")
 
 
-local Tab4Section = Tab4:NewSection("Tin")
+local Tab5Section = Tab5:NewSection("Tin")
 
 
-local Tab4Section = Tab4:NewSection("---Devolopers---")
+local Tab5Section = Tab5:NewSection("---Devolopers---")
 
 
-local Tab4Section = Tab4:NewSection("GasMaskSoldier")
+local Tab5Section = Tab5:NewSection("GasMaskSoldier")
 
 local Tab3Section = Tab3:NewSection("Reset Character")
 
@@ -357,3 +389,31 @@ Tab2Section:NewButton("Slap Battles Kick Gui","Slap Battles Kick Gui",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Kick%20gui%20Slap%20battles", true))()
 end)
+
+Tab2Section:NewButton("Radiant Residents","Radiant Residents Gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main/Radiant%20Residents", true))()
+
+end)
+
+Tab2Section:NewButton("Funky Friday","Funky Friday Gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main/Funky%20Friday", true))()
+
+end)
+
+local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Custom Fling (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Chat Bypass V1 , V2 (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Chat Spy (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Counter Roast (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Custom Keyboard (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("Added Radiant Residents Gui (Games Hub)")
