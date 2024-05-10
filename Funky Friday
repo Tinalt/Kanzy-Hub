@@ -22,7 +22,14 @@ end)
 
 Tab1Section:NewButton("Funky Friday Mobile","Mobile gui",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/FNF%20AutoFarm'))();
+end)
+
+local Tab1Section = Tab1:NewSection("AutoFarm")
+
+Tab1Section:NewButton("Funky Friday AutoFarm Gui","FNF AutoFarm gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/FNF%20AutoFarm'))();
 
 end)
 
