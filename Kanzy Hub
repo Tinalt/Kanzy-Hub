@@ -54,6 +54,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Name
 
 end)
 
+Tab1Section:NewButton("Dex Explorer V3","Dex Explorer on Mobile!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+
+end)
+
 Tab1Section:NewButton("Mobile Tab Glitch","You can now Tab Glitch on Mobile!",function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
@@ -425,6 +431,8 @@ local Tab4Section = Tab4:NewSection("Added Counter Roast (Main)")
 local Tab4Section = Tab4:NewSection("Added Nameless Admin (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Custom Keyboard (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Dex Explorer V3 (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
 
