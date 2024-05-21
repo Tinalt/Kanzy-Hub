@@ -418,6 +418,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main
 
 end)
 
+Tab2Section:NewButton("[Recode] Untitled Tag Game","Gui",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tinalt/Scripts/main/%5BRecode%5D%20Untitled%20Tag%20Game")))()
+end)
+
 local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Custom Fling (Main)")
@@ -437,3 +441,5 @@ local Tab4Section = Tab4:NewSection("Added Dex Explorer V3 (Main)")
 local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added Radiant Residents Gui (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("Added [Recode] Untitled Tag Game Gui (Games Hub)")
