@@ -237,7 +237,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/
 
 end) 
 
-local Tab1Section = Tab1:NewSection("Other Stuff [ NICE ]")
+local Tab1Section = Tab1:NewSection("Other Stuff")
 
 Tab1Section:NewButton("Destroy NameTag (NOT FE)","Destroy Your NameTag",function()
 
@@ -255,15 +255,9 @@ ts:Teleport(game.PlaceId, p)
 
 end) 
 
-Tab1Section:NewButton("ServerHop","This Script Allowed You To Join Low Server",function()
+Tab1Section:NewButton("ServerHop (Small Server)","This Script Allowed You To Join Low Server",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Serverhop?token=GHSAT0AAAAAACGUT5VD4TY2XAYDMZYWLOV6ZHF2KXQ"))()
-
-end) 
-
-Tab2Section:NewButton("+1 TNT Every Second","NameHere",function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0%2B1tnt", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/ServerHop"))()
 
 end) 
 
@@ -283,17 +277,11 @@ Tab2Section:NewButton("Last To Leave","Auto Win",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Last%20to%20leave", true))()
 
-end) 
-
-Tab2Section:NewButton("Funky Friday Auto Play","OP AUTO PLAY [ Only For Fluxus ]",function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
-
-end) 
+end)
 
 Tab2Section:NewButton("Lucky Block","Get all items for FREE!!!",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Kanzy-Hub-By-Tin/main/Lucky%20block"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scripts-New-/main/harlenscripts"))()
 
 end) 
 
@@ -327,17 +315,29 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFrench21/Hecta/mai
 
 end) 
 
-Tab3Section:NewButton("Player WalkSpeed 100","WalkSpeed 100",function()
+Tab3Section:NewButton("WalkSpeed 200","WalkSpeed 200",function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+
+end)
+
+Tab3Section:NewButton("WalkSpeed 100","WalkSpeed 100",function()
 
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 
 end) 
 
-Tab3Section:NewButton("Player WalkSpeed 50","WalkSpeed 50",function()
+Tab3Section:NewButton("WalkSpeed 50","WalkSpeed 50",function()
 
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 
 end) 
+
+Tab3Section:NewButton("Normal Speed","Normal Speed",function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+
+end)
 
 Tab3Section:NewButton("Super Jump","JumpPower 150",function()
 
@@ -443,3 +443,17 @@ local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
 local Tab4Section = Tab4:NewSection("Added Radiant Residents Gui (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added [Recode] Untitled Tag Game Gui (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
+
+local Tab4Section = Tab4:NewSection("Removed +1 TNT Every Second")
+
+local Tab4Section = Tab4:NewSection("Removed Funky Friday AutoPlay")
+
+local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
+
+local Tab4Section = Tab4:NewSection("Updated [Recode] Untitled Tag Game")
+
+local Tab4Section = Tab4:NewSection("Updated Lucky Block")
+
+local Tab4Section = Tab4:NewSection("Updated Funky Friday")
