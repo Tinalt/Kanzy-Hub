@@ -422,8 +422,20 @@ Tab2Section:NewButton("[Recode] Untitled Tag Game","Gui",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tinalt/Scripts/main/%5BRecode%5D%20Untitled%20Tag%20Game")))()
 end)
 
+Tab2Section:NewButton("Natural Disaster Survival","Gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Natural%20Disaster%20Survival' ))()
+
+end)
+
 Tab2Section:NewButton("When The","Gui",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tinalt/Scripts/main/When%20The")))()
+end)
+
+Tab2Section:NewButton("Dingus","Gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Dingus' ))()
+
 end)
 
 local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
@@ -447,6 +459,10 @@ local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
 local Tab4Section = Tab4:NewSection("Added Radiant Residents Gui (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added [Recode] Untitled Tag Game Gui (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("Added Natural Disaster Survival Gui (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("Added Dingus Gui (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
