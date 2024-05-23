@@ -422,6 +422,10 @@ Tab2Section:NewButton("[Recode] Untitled Tag Game","Gui",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tinalt/Scripts/main/%5BRecode%5D%20Untitled%20Tag%20Game")))()
 end)
 
+Tab2Section:NewButton("When The","Gui",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Tinalt/Scripts/main/When%20The")))()
+end)
+
 local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Custom Fling (Main)")
@@ -436,7 +440,7 @@ local Tab4Section = Tab4:NewSection("Added Nameless Admin (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Custom Keyboard (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Dex Explorer V3 (Main)")
+local Tab4Section = Tab4:NewSection("Added When The Gui (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
 
