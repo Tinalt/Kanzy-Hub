@@ -112,6 +112,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/C
 
 end)
 
+Tab1Section:NewButton("Server Finder","FIND ANYSERVER",function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Server-Browser_80", true))()
+end)
+
 Tab1Section:NewButton("Chat Hax","FAKE CHAT LOL",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Chat%20hack", true))()
@@ -450,7 +455,7 @@ local Tab4Section = Tab4:NewSection("Added Counter Roast (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Nameless Admin (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Custom Keyboard (Main)")
+local Tab4Section = Tab4:NewSection("Added Server Finder (Main)")
 
 local Tab4Section = Tab4:NewSection("Added When The Gui (Games Hub)")
 
