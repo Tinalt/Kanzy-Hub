@@ -398,7 +398,7 @@ end)
 
 Tab2Section:NewButton("The Obby Elevator","Inf coins, teleport",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/KanY", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/The%20Obby%20Elevator", true))()
 end)
 
 Tab2Section:NewButton("Blade Ball","Blade Ball Hub By Tin",function()
@@ -495,3 +495,5 @@ local Tab4Section = Tab4:NewSection("Updated Lucky Block")
 local Tab4Section = Tab4:NewSection("Updated Funky Friday")
 
 local Tab4Section = Tab4:NewSection("Updated Build A Boat For Treasure")
+
+local Tab4Section = Tab4:NewSection("Updated The Obby Elevator")
