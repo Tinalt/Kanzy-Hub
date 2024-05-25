@@ -272,9 +272,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-eleva
 
 end) 
 
-Tab2Section:NewButton("Slap Battles [ OP ]","OP Slap Battles Script By Tin",function()
+Tab2Section:NewButton("Slap Battles Guis","OP Slap Battles Script By Tin",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Slap%20battles"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Slap%20Battles%20Guis"))()
 
 end) 
 
@@ -406,11 +406,6 @@ Tab2Section:NewButton("Blade Ball","Blade Ball Hub By Tin",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Blade%20Ball", true))()
 end)
 
-Tab2Section:NewButton("Slap Battles Kick Gui","Slap Battles Kick Gui",function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Kick%20gui%20Slap%20battles", true))()
-end)
-
 Tab2Section:NewButton("Radiant Residents","Radiant Residents Gui",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main/Radiant%20Residents", true))()
@@ -469,11 +464,17 @@ local Tab4Section = Tab4:NewSection("Added Natural Disaster Survival Gui (Games 
 
 local Tab4Section = Tab4:NewSection("Added Dingus Gui (Games Hub)")
 
+local Tab4Section = Tab4:NewSection("Added Slap Battles Guis (Games Hub)")
+
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
 local Tab4Section = Tab4:NewSection("Removed +1 TNT Every Second")
 
 local Tab4Section = Tab4:NewSection("Removed Funky Friday AutoPlay")
+
+local Tab4Section = Tab4:NewSection("Removed Slap Battles Kick Gui")
+
+local Tab4Section = Tab4:NewSection("Removed Slap Battles [ OP ]")
 
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
