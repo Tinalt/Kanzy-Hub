@@ -65,6 +65,12 @@ Tab1Section:NewButton("Mobile Tab Glitch","You can now Tab Glitch on Mobile!",fu
 loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
 end)
 
+Tab1Section:NewButton("Hitbox Gui","Hitbox",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Hitbox%20gui' ))()
+
+end)
+
 Tab1Section:NewButton("Fling Gui","Fling Fling",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
@@ -459,6 +465,8 @@ local Tab4Section = Tab4:NewSection("Added Counter Roast (Main)")
 local Tab4Section = Tab4:NewSection("Added Nameless Admin (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Server Finder (Main)")
+
+local Tab4Section = Tab4:NewSection("Added Hitbox Gui (Main)")
 
 local Tab4Section = Tab4:NewSection("Added When The Gui (Games Hub)")
 
