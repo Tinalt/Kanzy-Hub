@@ -290,9 +290,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-eleva
 
 end)
 
-Tab2Section:NewButton("Lucky Block","Get all items for FREE!!!",function()
+Tab2Section:NewButton("Lucky Block Tower","Get all items for FREE!!!",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scripts-New-/main/harlenscripts"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Color%20Block%20Tower"))()
 
 end) 
 
@@ -505,3 +505,5 @@ local Tab4Section = Tab4:NewSection("Updated Funky Friday")
 local Tab4Section = Tab4:NewSection("Updated Build A Boat For Treasure")
 
 local Tab4Section = Tab4:NewSection("Updated The Obby Elevator")
+
+local Tab4Section = Tab4:NewSection("Updated Color Block Tower")
