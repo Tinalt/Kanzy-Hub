@@ -438,6 +438,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/D
 
 end)
 
+Tab2Section:NewButton("[FPS] Gun Ground FFA","Gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Gun%20ground"))()
+
+end)
+
+-------------------------UPDATE LOG--------------------------------
+
 local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
 
 local Tab4Section = Tab4:NewSection("Added Custom Fling (Main)")
@@ -465,6 +473,8 @@ local Tab4Section = Tab4:NewSection("Added Natural Disaster Survival Gui (Games 
 local Tab4Section = Tab4:NewSection("Added Dingus Gui (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added Slap Battles Guis (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("Added [FPS] Gun Ground FFA (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
