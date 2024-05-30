@@ -450,6 +450,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/G
 
 end)
 
+Tab2Section:NewButton("Survive RED LARVA In Area 51","Gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/%F0%9F%9A%AASurvive%20RED%20LARVA%20In%20Area%2051%20%F0%9F%94%A6' ))()
+end)
+
 -------------------------UPDATE LOG--------------------------------
 
 local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
@@ -483,6 +488,8 @@ local Tab4Section = Tab4:NewSection("Added Dingus Gui (Games Hub)")
 local Tab4Section = Tab4:NewSection("Added Slap Battles Guis (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added [FPS] Gun Ground FFA (Games Hub)")
+
+local Tab4Section = Tab4:NewSection("Added Survive RED LARVA In Area 51 (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
