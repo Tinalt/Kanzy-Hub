@@ -30,11 +30,14 @@ local Tab2Section = Tab2:NewSection("Games Hub [ OP ]")
 local Tab3 = window:NewTab("Player")
 local Tab3Section = Tab3:NewSection("Player")
 
-local Tab4 = window:NewTab("Update Logs")
-local Tab4Section = Tab4:NewSection("Update Logs")
+local Tab4 = window:NewTab("Join Game")
+local Tab4Section = Tab4:NewSection("Teleport to games")
 
-local Tab5 = window:NewTab("Credits")
-local Tab5Section = Tab5:NewSection("Credits")
+local Tab5 = window:NewTab("Update Logs")
+local Tab5Section = Tab5:NewSection("Update Logs")
+
+local Tab6 = window:NewTab("Credits")
+local Tab6Section = Tab6:NewSection("Credits")
 
 --
 
@@ -368,16 +371,16 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 
 end) 
 
-local Tab5Section = Tab5:NewSection("---Owner Kanzy Hub---")
+local Tab5Section = Tab6:NewSection("---Owner Kanzy Hub---")
 
 
-local Tab5Section = Tab5:NewSection("Tin")
+local Tab6Section = Tab6:NewSection("Tin")
 
 
-local Tab5Section = Tab5:NewSection("---Devolopers---")
+local Tab6Section = Tab6:NewSection("---Devolopers---")
 
 
-local Tab5Section = Tab5:NewSection("GasMaskSoldier")
+local Tab6Section = Tab6:NewSection("GasMaskSoldier")
 
 local Tab3Section = Tab3:NewSection("Reset Character")
 
@@ -457,66 +460,73 @@ end)
 
 -------------------------UPDATE LOG--------------------------------
 
-local Tab4Section = Tab4:NewSection("Added Extra Fling Gui (Main)")
+local Tab5Section = Tab5:NewSection("Added Extra Fling Gui (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Custom Fling (Main)")
+local Tab5Section = Tab5:NewSection("Added Custom Fling (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Chat Bypass V1 , V2 (Main)")
+local Tab5Section = Tab5:NewSection("Added Chat Bypass V1 , V2 (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Chat Spy (Main)")
+local Tab5Section = Tab5:NewSection("Added Chat Spy (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Counter Roast (Main)")
+local Tab5Section = Tab5:NewSection("Added Counter Roast (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Nameless Admin (Main)")
+local Tab5Section = Tab5:NewSection("Added Nameless Admin (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Server Finder (Main)")
+local Tab5Section = Tab5:NewSection("Added Server Finder (Main)")
 
-local Tab4Section = Tab4:NewSection("Added Hitbox Gui (Main)")
+local Tab5Section = Tab5:NewSection("Added Hitbox Gui (Main)")
 
-local Tab4Section = Tab4:NewSection("Added When The Gui (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added When The Gui (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Funky Friday Gui (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Funky Friday Gui (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Radiant Residents Gui (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Radiant Residents Gui (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added [Recode] Untitled Tag Game Gui (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added [Recode] Untitled Tag Game Gui (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Natural Disaster Survival Gui (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Natural Disaster Survival Gui (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Dingus Gui (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Dingus Gui (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Slap Battles Guis (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Slap Battles Guis (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added [FPS] Gun Ground FFA (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added [FPS] Gun Ground FFA (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Survive RED LARVA In Area 51 (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Survive RED LARVA In Area 51 (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("Added Monday Morning Misery [Beta] (Games Hub)")
+local Tab5Section = Tab5:NewSection("Added Monday Morning Misery [Beta] (Games Hub)")
 
-local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
+local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
 
-local Tab4Section = Tab4:NewSection("Removed +1 TNT Every Second")
+local Tab5Section = Tab5:NewSection("Removed +1 TNT Every Second")
 
-local Tab4Section = Tab4:NewSection("Removed Funky Friday AutoPlay")
+local Tab5Section = Tab5:NewSection("Removed Funky Friday AutoPlay")
 
-local Tab4Section = Tab4:NewSection("Removed Slap Battles Kick Gui")
+local Tab5Section = Tab5:NewSection("Removed Slap Battles Kick Gui")
 
-local Tab4Section = Tab4:NewSection("Removed Slap Battles [ OP ]")
+local Tab5Section = Tab5:NewSection("Removed Slap Battles [ OP ]")
 
-local Tab4Section = Tab4:NewSection("Removed Fly Race")
+local Tab5Section = Tab5:NewSection("Removed Fly Race")
 
-local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
+local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
 
-local Tab4Section = Tab4:NewSection("Updated [Recode] Untitled Tag Game")
+local Tab5Section = Tab5:NewSection("Updated [Recode] Untitled Tag Game")
 
-local Tab4Section = Tab4:NewSection("Updated Lucky Block")
+local Tab5Section = Tab5:NewSection("Updated Lucky Block")
 
-local Tab4Section = Tab4:NewSection("Updated Funky Friday")
+local Tab5Section = Tab5:NewSection("Updated Funky Friday")
 
-local Tab4Section = Tab4:NewSection("Updated Build A Boat For Treasure")
+local Tab5Section = Tab5:NewSection("Updated Build A Boat For Treasure")
 
-local Tab4Section = Tab4:NewSection("Updated The Obby Elevator")
+local Tab5Section = Tab5:NewSection("Updated The Obby Elevator")
 
-local Tab4Section = Tab4:NewSection("Updated Color Block Tower")
+local Tab5Section = Tab5:NewSection("Updated Color Block Tower")
 
-local Tab4Section = Tab4:NewSection("Updated Impossible Glass Bridge Obby (Squid Game)")
+local Tab5Section = Tab5:NewSection("Updated Impossible Glass Bridge Obby (Squid Game)")
+
+
+
+-----
+
+
+local Tab4Section = Tab4:NewSection("---Coming Soon---")
