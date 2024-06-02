@@ -296,9 +296,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scri
 
 end) 
 
-Tab2Section:NewButton("Fly Race","Best Fly Race Script",function()
+Tab2Section:NewButton("Monday Morning Misery [Beta]","Best Fly Race Script",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0flyrace", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VeztWare/Vezt/main/MMM-AutoPlayer.lua"))()
 
 end) 
 
@@ -491,6 +491,8 @@ local Tab4Section = Tab4:NewSection("Added [FPS] Gun Ground FFA (Games Hub)")
 
 local Tab4Section = Tab4:NewSection("Added Survive RED LARVA In Area 51 (Games Hub)")
 
+local Tab4Section = Tab4:NewSection("Added Monday Morning Misery [Beta] (Games Hub)")
+
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
 local Tab4Section = Tab4:NewSection("Removed +1 TNT Every Second")
@@ -500,6 +502,8 @@ local Tab4Section = Tab4:NewSection("Removed Funky Friday AutoPlay")
 local Tab4Section = Tab4:NewSection("Removed Slap Battles Kick Gui")
 
 local Tab4Section = Tab4:NewSection("Removed Slap Battles [ OP ]")
+
+local Tab4Section = Tab4:NewSection("Removed Fly Race")
 
 local Tab4Section = Tab4:NewSection("-------------------------------------------------------------------")
 
