@@ -274,7 +274,7 @@ end)
 
 Tab2Section:NewButton("Impossible Glass Bridge Obby! (Squid Game)","Click More To Load All Correct Glass",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Impossible%20glass", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Impossible%20Glass%20Bridge%20Obby!%20(Squid%20Game)"))()
 
 end) 
 
@@ -518,3 +518,5 @@ local Tab4Section = Tab4:NewSection("Updated Build A Boat For Treasure")
 local Tab4Section = Tab4:NewSection("Updated The Obby Elevator")
 
 local Tab4Section = Tab4:NewSection("Updated Color Block Tower")
+
+local Tab4Section = Tab4:NewSection("Updated Impossible Glass Bridge Obby (Squid Game)")
