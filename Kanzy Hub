@@ -30,7 +30,7 @@ local Tab2Section = Tab2:NewSection("Games Hub [ OP ]")
 local Tab3 = window:NewTab("Player")
 local Tab3Section = Tab3:NewSection("Player")
 
-local Tab4 = window:NewTab("Join Game")
+local Tab4 = window:NewTab("Join Games")
 local Tab4Section = Tab4:NewSection("Teleport to games")
 
 local Tab5 = window:NewTab("Update Logs")
@@ -460,6 +460,12 @@ end)
 
 -------------------------UPDATE LOG--------------------------------
 
+local Tab5Section = Tab5:NewSection("NEW TAB: Join Games")
+
+local Tab5Section = Tab5:NewSection("Now you can TP to games that supported by Kanzy Hub!")
+
+local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
+
 local Tab5Section = Tab5:NewSection("Added Extra Fling Gui (Main)")
 
 local Tab5Section = Tab5:NewSection("Added Custom Fling (Main)")
@@ -526,7 +532,137 @@ local Tab5Section = Tab5:NewSection("Updated Impossible Glass Bridge Obby (Squid
 
 
 
------
+-----Join Games
 
 
-local Tab4Section = Tab4:NewSection("---Coming Soon---")
+Tab4Section:NewButton("Impossible Glass Bridge Obby! (Squid Game)","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(7952502098)
+
+end)
+
+Tab4Section:NewButton("Slap Battles","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(6403373529)
+
+end)
+
+Tab4Section:NewButton("Last To Leave","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(8305160617)
+
+end)
+
+Tab4Section:NewButton("Lucky Block","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(662417684)
+
+end)
+
+Tab4Section:NewButton("Monday Morning Misery [Beta]","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(7205641391)
+
+end)
+
+Tab4Section:NewButton("Build A Boat For Treasure","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(537413528)
+
+end)
+
+Tab4Section:NewButton("Color Block Tower","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(6072880991)
+
+end)
+
+Tab4Section:NewButton("Longest Answer Win","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(4162410081)
+
+end)
+
+Tab4Section:NewButton("Squid Game","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(7549229959)
+
+end)
+
+Tab4Section:NewButton("Stair Of Rage","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(11756661207)
+
+end)
+
+Tab4Section:NewButton("Insane Elevator","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(4104106043)
+
+end)
+
+Tab4Section:NewButton("Sword Warrior","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(12986400307)
+
+end)
+
+Tab4Section:NewButton("The Obby Elevator","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(7044096177)
+
+end)
+
+Tab4Section:NewButton("Blade Ball","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(13772394625)
+
+end)
+
+Tab4Section:NewButton("Radiant Residents","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(13950108612)
+
+end)
+
+Tab4Section:NewButton("Funky Friday","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(6447798030)
+
+end)
+
+Tab4Section:NewButton("[Recode] Untitled Tag Game","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(14044547200)
+
+end)
+
+Tab4Section:NewButton("Natural Disaster Survival","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(189707)
+
+end)
+
+Tab4Section:NewButton("When The","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(7057417395)
+
+end)
+
+Tab4Section:NewButton("Dingus","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(13924946576)
+
+end)
+
+Tab4Section:NewButton("[FPS] Gun Ground FFA","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(12137249458)
+
+end)
+
+Tab4Section:NewButton("Survive Red LARVA In Area 51","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(12380195486)
+
+end)
