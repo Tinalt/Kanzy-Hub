@@ -290,9 +290,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-eleva
 
 end)
 
-Tab2Section:NewButton("Lucky Block Tower","Get all items for FREE!!!",function()
+Tab2Section:NewButton("Lucky Block","Get all items for FREE!!!",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Color%20Block%20Tower"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scripts-New-/main/harlenscripts"))()
 
 end) 
 
@@ -308,9 +308,9 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/JustAP1ayer/BABFTPLA
 
 end) 
 
-Tab2Section:NewButton("Color Block","Auto Win, Infinity Wins!",function()
+Tab2Section:NewButton("Color Block Tower","Auto Win, Infinity Wins!",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Color%20block", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Color%20Block%20Tower"))()
 
 end) 
 
