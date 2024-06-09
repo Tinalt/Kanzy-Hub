@@ -410,11 +410,6 @@ Tab2Section:NewButton("The Obby Elevator","Inf coins, teleport",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/The%20Obby%20Elevator", true))()
 end)
 
-Tab2Section:NewButton("Blade Ball","Blade Ball Hub By Tin",function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Blade%20Ball", true))()
-end)
-
 Tab2Section:NewButton("Radiant Residents","Radiant Residents Gui",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main/Radiant%20Residents", true))()
@@ -459,6 +454,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/%
 end)
 
 -------------------------UPDATE LOG--------------------------------
+
+local Tab5Section = Tab5:NewSection("-----Every updates can be found here-----")
 
 local Tab5Section = Tab5:NewSection("NEW TAB: Join Games")
 
@@ -514,6 +511,8 @@ local Tab5Section = Tab5:NewSection("Removed Slap Battles [ OP ]")
 
 local Tab5Section = Tab5:NewSection("Removed Fly Race")
 
+local Tab5Section = Tab5:NewSection("Removed Blade Ball")
+
 local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
 
 local Tab5Section = Tab5:NewSection("Updated [Recode] Untitled Tag Game")
@@ -529,6 +528,12 @@ local Tab5Section = Tab5:NewSection("Updated The Obby Elevator")
 local Tab5Section = Tab5:NewSection("Updated Color Block Tower")
 
 local Tab5Section = Tab5:NewSection("Updated Impossible Glass Bridge Obby (Squid Game)")
+
+
+
+
+
+
 
 
 
@@ -610,12 +615,6 @@ end)
 Tab4Section:NewButton("The Obby Elevator","Nothing here!",function()
 
 game:GetService("TeleportService"):Teleport(7044096177)
-
-end)
-
-Tab4Section:NewButton("Blade Ball","Nothing here!",function()
-
-game:GetService("TeleportService"):Teleport(13772394625)
 
 end)
 
