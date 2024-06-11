@@ -63,6 +63,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scrip
 
 end)
 
+Tab1Section:NewButton("Remote Spy - SimpleSpy Mobile","Remote Spy for Mobile!",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile' ))()
+end)
+
 Tab1Section:NewButton("Mobile Tab Glitch","You can now Tab Glitch on Mobile!",function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
@@ -485,6 +490,8 @@ local Tab5Section = Tab5:NewSection("Added Server Finder (Main)")
 
 local Tab5Section = Tab5:NewSection("Added Hitbox Gui (Main)")
 
+local Tab5Section = Tab5:NewSection("Added Remote Spy - Simple Spy Mobile (Main)")
+
 local Tab5Section = Tab5:NewSection("Added When The Gui (Games Hub)")
 
 local Tab5Section = Tab5:NewSection("Added Funky Friday Gui (Games Hub)")
@@ -526,6 +533,8 @@ local Tab5Section = Tab5:NewSection("-------------------------------------------
 local Tab5Section = Tab5:NewSection("Updated [Recode] Untitled Tag Game")
 
 local Tab5Section = Tab5:NewSection("Updated Lucky Block")
+
+local Tab5Section = Tab5:NewSection("Updated Slap Battles Guis")
 
 local Tab5Section = Tab5:NewSection("Updated Funky Friday")
 
