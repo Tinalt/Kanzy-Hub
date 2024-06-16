@@ -350,6 +350,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scri
 
 end) 
 
+Tab2Section:NewButton("Ability Wars","ABW Hubs",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main/Ability%20Wars'))()
+end)
+
 Tab2Section:NewButton("Monday Morning Misery [Beta]","Best Fly Race Script",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VeztWare/Vezt/main/MMM-AutoPlayer.lua"))()
