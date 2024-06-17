@@ -125,6 +125,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/H
 
 end)
 
+Tab1Section:NewButton("Spam Chat Mobile Gui (Turn on Anti Chat Logger)","Spam",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Spam%20Chat'))()
+end)
+
 Tab1Section:NewButton("Fling Gui","Fling Fling",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
@@ -546,6 +551,8 @@ local Tab5Section = Tab5:NewSection("Added Server Finder (Main)")
 local Tab5Section = Tab5:NewSection("Added Hitbox Gui (Main)")
 
 local Tab5Section = Tab5:NewSection("Added Remote Spy - Simple Spy Mobile (Main)")
+
+local Tab5Section = Tab5:NewSection("Added Spam Chat Mobile Gui (Main)")
 
 local Tab5Section = Tab5:NewSection("Added When The Gui (Games Hub)")
 
