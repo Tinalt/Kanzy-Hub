@@ -372,6 +372,11 @@ Tab2Section:NewButton("Ability Wars","ABW Hubs",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Kanzy-Hub/main/Ability%20Wars'))()
 end)
 
+Tab2Section:NewButton("Admin RNG","Admin RNG Hubs",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Admin%20Rng'))()
+end)
+
 Tab2Section:NewButton("Monday Morning Misery [Beta]","Best Fly Race Script",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VeztWare/Vezt/main/MMM-AutoPlayer.lua"))()
@@ -566,6 +571,8 @@ local Tab5Section = Tab5:NewSection("Added Remote Spy - Simple Spy Mobile (Main)
 
 local Tab5Section = Tab5:NewSection("Added Spam Chat Mobile Gui (Main)")
 
+local Tab5Section = Tab5:NewSection("Added Chat Bypass V3 (Main)")
+
 local Tab5Section = Tab5:NewSection("Added When The Gui (Games Hub)")
 
 local Tab5Section = Tab5:NewSection("Added Funky Friday Gui (Games Hub)")
@@ -577,6 +584,8 @@ local Tab5Section = Tab5:NewSection("Added [Recode] Untitled Tag Game Gui (Games
 local Tab5Section = Tab5:NewSection("Added Natural Disaster Survival Gui (Games Hub)")
 
 local Tab5Section = Tab5:NewSection("Added Dingus Gui (Games Hub)")
+
+local Tab5Section = Tab5:NewSection("Added Admin RNG (Games Hub)")
 
 local Tab5Section = Tab5:NewSection("Added Slap Battles Guis (Games Hub)")
 
