@@ -6,9 +6,6 @@ local window = kavoUi.CreateLib("Ability Wars","BloodTheme")
 local Tab1 = window:NewTab("Main")
 local Tab1Section = Tab1:NewSection("Auto Roll Orbs")
 
-local Tab2 = window:NewTab("Settings")
-local Tab2Section = Tab2:NewSection("Settings")
-
 --Buttons
 
 Tab1Section:NewButton("Free Emotes","Free",function()
@@ -103,27 +100,3 @@ local Tab1Section = Tab1:NewSection("Infinite Yield")
 local Tab1Section = Tab1:NewSection("Tab Glitch")
 
 local Tab1Section = Tab1:NewSection("Custom Hitbox & Hitbox")
-
-Tab2Section:NewButton("Destroy Toggle Button","LOL",function()
-
--- Function to delete all instances of "patrickGui" from CoreGui
-local function deleteAllPatrickGui()
-    local coreGui = game.CoreGui
-    
-    -- Iterate through each child in CoreGui
-    for _, child in ipairs(coreGui:GetChildren()) do
-        -- Check if the child is named "patrickGui"
-        if child.Name == "patrickGui" then
-            -- Delete the patrickGui instance
-            child:Destroy()
-            print("Deleted patrickGui:", child.Name)
-        end
-    end
-    
-    print("All instances of patrickGui deleted.")
-end
-
--- Call the function to delete all instances of "patrickGui"
-deleteAllPatrickGui()
-
-end)
