@@ -12,7 +12,7 @@ if game.CoreGui:FindFirstChild("ScreenGui") then
     game.CoreGui.ScreenGui:Destroy()
 end
 
-wait(0.5)
+wait(0.2)
 
 ---Kanzy Hub
 
