@@ -4,7 +4,7 @@ local window = kavoUi.CreateLib("Ability Wars","BloodTheme")
 ---Hi
 
 local Tab1 = window:NewTab("Main")
-local Tab1Section = Tab1:NewSection("Auto Roll Orbs")
+local Tab1Section = Tab1:NewSection("Main")
 
 --Buttons
 
@@ -16,6 +16,12 @@ end)
 Tab1Section:NewButton("Auto Roll Orbs","Auto",function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/ABW%20Auto%20Roll%20Orbs'))()
+end)
+
+Tab1Section:NewButton("Sing Gui (Not My Problem Gumball)","Auto",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Problem%20Not%20My%20Problem'))()
+
 end)
 
 Tab1Section:NewButton("Execute All Scripts Below","Hitbox, Inf yield, Tab Glitch, Custom Hitbox",function()
