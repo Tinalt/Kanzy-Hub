@@ -141,6 +141,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/F
 
 end)
 
+Tab1Section:NewButton("Fling Commands","Fling gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/Fling%20Commands2'))()
+end)
+
+Tab1Section:NewButton("Auto Fling Gui","Fling gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Auto%20Fling%20Player'))()
+end)
+
 Tab1Section:NewButton("Custom Fling","Fling gui",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Fling%20Select%20Player", true))()
@@ -661,6 +671,18 @@ end)
 Tab4Section:NewButton("Lucky Block","Nothing here!",function()
 
 game:GetService("TeleportService"):Teleport(662417684)
+
+end)
+
+Tab4Section:NewButton("Ability Wars","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(8260276694)
+
+end)
+
+Tab4Section:NewButton("Admin RNG","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(17461365630)
 
 end)
 
