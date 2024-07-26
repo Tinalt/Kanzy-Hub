@@ -199,6 +199,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/C
 
 end)
 
+Tab1Section:NewButton("Calculator","Calculator Gui",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Scripts%20Database'))()loadstring(data.Scripts.Script53.Key)()
+end)
+
 Tab1Section:NewButton("Server Finder","FIND ANYSERVER",function()
 
 loadstring(game:HttpGet("https://rawscripts.net/raw/Server-Browser_80", true))()
