@@ -17,7 +17,7 @@ wait(0.2)
 ---Kanzy Hub
 
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
-local window = kavoUi.CreateLib("Kanzy Hub [UPDATED]","BloodTheme")
+local window = kavoUi.CreateLib("Kanzy Hub","BloodTheme")
 
 ---Toggle Button
 
@@ -76,14 +76,11 @@ local Tab3Section = Tab3:NewSection("Player")
 local Tab4 = window:NewTab("Join Games")
 local Tab4Section = Tab4:NewSection("Teleport to games")
 
-local Tab5 = window:NewTab("Update Logs")
-local Tab5Section = Tab5:NewSection("Update Logs")
+local Tab5 = window:NewTab("Settings")
+local Tab5Section = Tab5:NewSection("Settings")
 
-local Tab6 = window:NewTab("Settings")
-local Tab6Section = Tab6:NewSection("Settings")
-
-local Tab7 = window:NewTab("Credits")
-local Tab7Section = Tab7:NewSection("Credits")
+local Tab6 = window:NewTab("Credits")
+local Tab6Section = Tab6:NewSection("Credits")
 
 --
 
@@ -368,6 +365,12 @@ Tab2Section:NewButton("Slap Battles Guis","OP Slap Battles Script By Tin",functi
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Slap%20Battles%20Guis"))()
 
+end)
+
+Tab2Section:NewButton("The Strongest Battlegrounds","The Strongest Battlegrounds Gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Tsb"))()
+
 end) 
 
 Tab2Section:NewButton("Last To Leave","Auto Win",function()
@@ -470,16 +473,16 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 
 end) 
 
-local Tab7Section = Tab7:NewSection("---Owner Kanzy Hub---")
+local Tab6Section = Tab6:NewSection("---Owner Kanzy Hub---")
 
 
-local Tab7Section = Tab7:NewSection("Tin")
+local Tab6Section = Tab6:NewSection("Tin")
 
 
-local Tab7Section = Tab7:NewSection("---Devolopers---")
+local Tab6Section = Tab6:NewSection("---Devolopers---")
 
 
-local Tab7Section = Tab7:NewSection("GasMaskSoldier")
+local Tab6Section = Tab6:NewSection("GasMaskSoldier")
 
 local Tab3Section = Tab3:NewSection("Reset Character")
 
@@ -552,97 +555,8 @@ Tab2Section:NewButton("Survive RED LARVA In Area 51","Gui",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Tinalt/Scripts/main/%F0%9F%9A%AASurvive%20RED%20LARVA%20In%20Area%2051%20%F0%9F%94%A6' ))()
 end)
 
--------------------------UPDATE LOG--------------------------------
 
-local Tab5Section = Tab5:NewSection("-----Every updates can be found here-----")
 
-local Tab5Section = Tab5:NewSection("NEW TAB: Settings")
-
-local Tab5Section = Tab5:NewSection("Nothing much only added Destroy Toggle Button")
-
-local Tab5Section = Tab5:NewSection("NEW TAB: Join Games")
-
-local Tab5Section = Tab5:NewSection("Now you can TP to games that supported by Kanzy Hub!")
-
-local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
-
-local Tab5Section = Tab5:NewSection("Added Extra Fling Gui (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Custom Fling (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Chat Bypass V1 , V2 (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Chat Spy (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Counter Roast (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Nameless Admin (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Server Finder (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Hitbox Gui (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Remote Spy - Simple Spy Mobile (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Spam Chat Mobile Gui (Main)")
-
-local Tab5Section = Tab5:NewSection("Added Chat Bypass V3 (Main)")
-
-local Tab5Section = Tab5:NewSection("Added When The Gui (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Funky Friday Gui (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Radiant Residents Gui (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added [Recode] Untitled Tag Game Gui (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Natural Disaster Survival Gui (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Dingus Gui (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Admin RNG (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Slap Battles Guis (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added [FPS] Gun Ground FFA (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Survive RED LARVA In Area 51 (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Monday Morning Misery [Beta] (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("Added Color Block (Games Hub)")
-
-local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
-
-local Tab5Section = Tab5:NewSection("Removed +1 TNT Every Second")
-
-local Tab5Section = Tab5:NewSection("Removed Funky Friday AutoPlay")
-
-local Tab5Section = Tab5:NewSection("Removed Slap Battles Kick Gui")
-
-local Tab5Section = Tab5:NewSection("Removed Slap Battles [ OP ]")
-
-local Tab5Section = Tab5:NewSection("Removed Fly Race")
-
-local Tab5Section = Tab5:NewSection("Removed Blade Ball")
-
-local Tab5Section = Tab5:NewSection("-------------------------------------------------------------------")
-
-local Tab5Section = Tab5:NewSection("Updated [Recode] Untitled Tag Game")
-
-local Tab5Section = Tab5:NewSection("Updated Lucky Block")
-
-local Tab5Section = Tab5:NewSection("Updated Slap Battles Guis")
-
-local Tab5Section = Tab5:NewSection("Updated Funky Friday")
-
-local Tab5Section = Tab5:NewSection("Updated Build A Boat For Treasure")
-
-local Tab5Section = Tab5:NewSection("Updated The Obby Elevator")
-
-local Tab5Section = Tab5:NewSection("Updated Color Block Tower")
-
-local Tab5Section = Tab5:NewSection("Updated Impossible Glass Bridge Obby (Squid Game)")
 
 
 
@@ -664,6 +578,12 @@ end)
 Tab4Section:NewButton("Slap Battles","Nothing here!",function()
 
 game:GetService("TeleportService"):Teleport(6403373529)
+
+end)
+
+Tab4Section:NewButton("The Strongest Battlegrounds","Nothing here!",function()
+
+game:GetService("TeleportService"):Teleport(10449761463)
 
 end)
 
@@ -800,7 +720,7 @@ game:GetService("TeleportService"):Teleport(12380195486)
 end)
 
 
-Tab6Section:NewButton("Destroy Toggle Button","Destroy ToggleUi button",function()
+Tab5Section:NewButton("Destroy Toggle Button","Destroy ToggleUi button",function()
 
 -- Function to delete all instances of "patrickGui" from CoreGui
 local function deleteAllPatrickGui()
