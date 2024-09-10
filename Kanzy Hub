@@ -504,7 +504,7 @@ end)
 
 Tab2Section:NewButton("Sword Warrior/Endless","Teleport to SafeSpot In Endless",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/SW%20ENDLESS", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Sword%20Warrior", true))()
 end)
 
 Tab2Section:NewButton("The Obby Elevator","Inf coins, teleport",function()
