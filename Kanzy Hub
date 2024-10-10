@@ -111,6 +111,11 @@ Tab1Section:NewButton("Remote Spy - SimpleSpy Mobile","Remote Spy for Mobile!",f
 loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile' ))()
 end)
 
+Tab1Section:NewButton("Star Executor","Star Executor Made By Tin",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/refs/heads/main/Star%20Executor"))()
+end)
+
 Tab1Section:NewButton("Mobile Tab Glitch","You can now Tab Glitch on Mobile!",function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
