@@ -8,8 +8,9 @@ Title = "Kanzy Hub";
 Duration = 4;
 });
 
-
-
+if game.CoreGui:FindFirstChild("ScreenGui") then
+    print(".")
+end
 
 wait(0.2)
 
