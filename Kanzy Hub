@@ -111,6 +111,11 @@ Tab1Section:NewButton("Remote Spy - SimpleSpy Mobile","Remote Spy for Mobile!",f
 loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile' ))()
 end)
 
+Tab1Section:NewButton("Save Server Gui","Save Server Gui By GhostPlayer",function()
+
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script17")
+end)
+
 Tab1Section:NewButton("Star Executor","Star Executor Made By Tin",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/refs/heads/main/Star%20Executor"))()
