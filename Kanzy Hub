@@ -377,6 +377,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/S
 
 end)
 
+Tab2Section:NewButton("Dead Rails","OP Dead Rails Script By Tin",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts2/refs/heads/main/Dead%20Rails"))()
+
+end)
+
 Tab2Section:NewButton("The Strongest Battlegrounds","The Strongest Battlegrounds Gui",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tinalt/Scripts/main/Tsb"))()
