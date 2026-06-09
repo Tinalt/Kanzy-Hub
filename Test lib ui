@@ -10,7 +10,7 @@ local Window = AlexchadLibrary:CreateWindow({
     LoadingSubtitle = "loading...", -- also self explanatory
     Theme = "Default", -- Default, Midnight, Ocean, Emerald, Light, Dark
     AnimationSpeed = 0.2, -- general animation speed for everything                
-    RippleEnabled = true, -- wether ripple/pulse should be on or not  default = true           
+    RippleEnabled = false, -- wether ripple/pulse should be on or not  default = true           
     RippleSpeed = 0.35,-- how fast the ripple/pulse is                  
     CornerRadius = 12,            
     ElementCornerRadius = 10, -- how round things should be                 
