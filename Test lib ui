@@ -8,7 +8,7 @@ local Window = AlexchadLibrary:CreateWindow({
     Version = "you could say premium verison or just v.1.2", -- version of your script(i didnt make it number only tho)
     LoadingTitle = "Alexchad UI Library", -- self explanatory
     LoadingSubtitle = "loading...", -- also self explanatory
-    Theme = "Midnight", -- Default, Midnight, Ocean, Emerald, Light, Dark
+    Theme = "Ocean", -- Default, Midnight, Ocean, Emerald, Light, Dark
     AnimationSpeed = 0.2, -- general animation speed for everything                
     RippleEnabled = false, -- wether ripple/pulse should be on or not  default = true           
     RippleSpeed = 0.35,-- how fast the ripple/pulse is                  
